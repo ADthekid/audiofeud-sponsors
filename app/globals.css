@@ -2,3 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
+html{scroll-behavior:smooth}
+
+#message::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 40vw;
+  height:120px;
+  background-color: #4824b3;
+  border-radius:50%;
+  transform-origin: bottom;
+  overflow: hidden;
+  transform: translateX(-50%) translateY(20%) scale(4); 
+  display: none;
+}
+
+.content{
+  z-index: 1;
+}
+
+#landing::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  height:50vh;
+  min-height: 400px;
+  background-image: linear-gradient(#d1c1ff 0%, #6633ff 60%);
+  border-radius:50%;
+  transform-origin: bottom;
+  overflow: hidden;
+  transform: translateX(-50%) translateY(-20%) scale(2);
+}
+
+@media (min-width: 768px) {
+  #landing::before{
+      width: 70vw;
+      transform: translateX(-50%) translateY(-15%) scale(4);
+  }
+}
+
+.custom-shape-divider-top-1692368077 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1692368077 svg {
+  position: relative;
+  display: block;
+  width: calc(110% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1692368077 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1692368260 {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 110%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1692368260 svg {
+  position: relative;
+  display: block;
+  width: calc(110% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1692368260 .shape-fill {
+  fill: #FFFFFF;
+}

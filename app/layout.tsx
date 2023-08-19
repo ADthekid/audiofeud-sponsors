@@ -1,4 +1,5 @@
 import './globals.css'
+import Footer from './components/footer'
 import type { Metadata } from 'next'
 import { Hanken_Grotesk } from 'next/font/google'
 
@@ -16,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={hankenGrotesk.className}>{children}</body>
+      <body className={hankenGrotesk.className}>
+        <div className="relative overflow-hidden">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

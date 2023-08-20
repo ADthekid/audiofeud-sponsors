@@ -1,6 +1,7 @@
 import Footer from './components/footer'
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head';
 import { Hanken_Grotesk } from 'next/font/google'
 import { Montserrat } from 'next/font/google'
 
@@ -10,6 +11,12 @@ const montserrat = Montserrat({ subsets: ['latin'], weight: '800' })
 export default function Home() {
   return (
     <div className={hankenGrotesk.className}>
+      <Head>
+        <meta property="og:image" content="<generated>" />
+        <meta property="og:image:type" content="<generated>" />
+        <meta property="og:image:width" content="<generated>" />
+        <meta property="og:image:height" content="<generated>" />
+      </Head>
       <section id="landing" className="landing flex h-[100vh] min-h-[800px] relative justify-center items-center">
         <div className="content">
           <ul className='text-center flex flex-col justify-center items-center'>
@@ -32,10 +39,10 @@ export default function Home() {
               An all-nighter with <br /> a bunch of musicians.
             </h1>
             <div className={montserrat.className}>
-            <h1 className="landing-text flex m-auto font-waterfall text-7xl lg:text-8xl xl:text-9xl text-white font-black md:max-w-[80vw] max-w-[90vw] drop-shadow-[0_10px_0_#4824b3]">HELP US MAKE IT HAPPEN.</h1>
+              <h1 className="landing-text flex m-auto font-waterfall text-7xl lg:text-8xl xl:text-9xl text-white font-black md:max-w-[80vw] max-w-[90vw] drop-shadow-[0_10px_0_#4824b3]">HELP US MAKE IT HAPPEN.</h1>
             </div>
             <a href="/#tiers">
-            <button className="bg-audiofeudpurpledark text-xl sm:text-2xl md:text-3xl font-normal text-white font-bold px-[50px] py-6 my-[40px] rounded-full" type="submit">Oh yeah.</button>
+              <button className="bg-audiofeudpurpledark text-xl sm:text-2xl md:text-3xl font-normal text-white font-bold px-[50px] py-6 my-[40px] rounded-full" type="submit">Oh yeah.</button>
             </a>
           </ul>
         </div>
@@ -88,16 +95,16 @@ export default function Home() {
         </ul>
       </section>
       <section id="team" className="relative team min-h-[500px] h-fit bg-audiofeudpurple">
-      <div className="custom-shape-divider-top-1692368077">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" className="shape-fill"></path>
-    </svg>
-</div>
-<div className="custom-shape-divider-bottom-1692368260">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" className="shape-fill"></path>
-    </svg>
-</div>
+        <div className="custom-shape-divider-top-1692368077">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" className="shape-fill"></path>
+          </svg>
+        </div>
+        <div className="custom-shape-divider-bottom-1692368260">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" className="shape-fill"></path>
+          </svg>
+        </div>
         <h1 className="pt-36 text-center text-white font-extrabold font-waterfall lg:text-6xl md:text-5xl sm:text-5xl text-4xl">Organizers</h1>
         <ul className="justify-center h-auto flex-wrap flex mt-2 mb-2 items-center pb-36">
           <div className="flex-col justify-center rounded-full mx-[2vw] mt-8 h-[400px]">
@@ -167,7 +174,7 @@ export default function Home() {
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
-            <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
             </div>
           </div>
           <div className="relative tier h-[450px] bg-white rounded-[20px] mx-[2vw] min-w-[280px] w-[280px] my-2 border-2 border-audiofeudpurple drop-shadow-[0_0_0_#4824b3] transition duration-300 ease-in-out hover:drop-shadow-[-10px_10px_0_#4824b3]">
@@ -194,7 +201,7 @@ export default function Home() {
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
-            <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
             </div>
           </div>
           <div className="relative tier h-[450px] bg-white rounded-[20px] mx-[2vw] min-w-[280px] w-[280px] my-2 border-2 border-audiofeudpurple drop-shadow-[0_0_0_#4824b3] transition duration-300 ease-in-out hover:drop-shadow-[-10px_10px_0_#4824b3]">
@@ -221,7 +228,7 @@ export default function Home() {
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
-            <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
             </div>
           </div>
           <div className="relative tier h-[450px] bg-white rounded-[20px] mx-[2vw] min-w-[280px] w-[280px] my-2 border-2 border-audiofeudpurple drop-shadow-[0_0_0_#4824b3] transition duration-300 ease-in-out hover:drop-shadow-[-10px_10px_0_#4824b3]">
@@ -244,7 +251,7 @@ export default function Home() {
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
-            <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
             </div>
           </div>
         </ul>

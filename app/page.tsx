@@ -144,7 +144,7 @@ export default function Home() {
       <section id="tiers" className="info min-h-[800px] h-fit">
         <h1 className="pt-24 text-center text-audiofeudpurple font-extrabold font-waterfall lg:text-6xl md:text-5xl sm:text-5xl text-4xl">Sponsorship Tiers</h1>
         <div className="flex justify-center">
-          <p className="text-center max-w-4xl text-audiofeudpurple md:text-xl sm:text-large text-medium px-4 py-4">Believe in our message? Feel inspired to help us out? Simply want your name on a t-shirt for some publicity? Select the package that's best for you and your company.*</p>
+          <p className="text-center max-w-4xl text-audiofeudpurple md:text-xl sm:text-large text-medium px-4 py-4">Believe in our message? Feel inspired to help us out? Simply want your name on a t-shirt for some publicity? Select the package that&apos;s best for you and your company.*</p>
         </div>
         <ul className="justify-center h-auto flex-wrap flex mt-2 mb-2 items-center">
           <div className="relative tier h-[450px] bg-white rounded-[20px] mx-[2vw] min-w-[280px] w-[280px] my-2 border-2 border-audiofeudpurple drop-shadow-[0_0_0_#4824b3] transition duration-300 ease-in-out hover:drop-shadow-[-10px_10px_0_#4824b3]">
@@ -159,11 +159,11 @@ export default function Home() {
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Actually let's make that two lines of filler text.</p>
+                <p className="flex-initial">Actually let&apos;s make that two lines of filler text.</p>
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Let's see what happens if we turn it into three lines full of filler text.</p>
+                <p className="flex-initial">Let&apos;s see what happens if we turn it into three lines full of filler text.</p>
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
@@ -182,15 +182,15 @@ export default function Home() {
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Actually let's make that two lines of filler text.</p>
+                <p className="flex-initial">Actually let&apos;s make that two lines of filler text.</p>
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Let's see what happens if we turn it into three lines full of filler text.</p>
+                <p className="flex-initial">Let&apos;s see what happens if we turn it into three lines full of filler text.</p>
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Let's make this a bit variable</p>
+                <p className="flex-initial">Let&apos;s make this a bit variable</p>
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
@@ -209,11 +209,11 @@ export default function Home() {
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Actually let's make that two lines of filler text.</p>
+                <p className="flex-initial">Actually let&apos;s make that two lines of filler text.</p>
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Let's see what happens if we turn it into three lines full of filler text.</p>
+                <p className="flex-initial">Let&apos;s see what happens if we turn it into three lines full of filler text.</p>
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
@@ -236,11 +236,11 @@ export default function Home() {
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Actually let's make that two lines of filler text.</p>
+                <p className="flex-initial">Actually let&apos;s make that two lines of filler text.</p>
               </div>
               <div className="flex mt-[5px] mb-[5px] text-audiofeudpurpledark">
                 <svg fill="#34b233" className="flex-none mt-[3px] mr-[10px]" width="18" height="18" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"><polygon points="35.5,69.2 12.7,46.5 5.5,53.8 35.5,83.8 95.5,23.8 88.2,16.5 " /></svg>
-                <p className="flex-initial">Let's see what happens if we turn it into three lines full of filler text.</p>
+                <p className="flex-initial">Let&apos;s see what happens if we turn it into three lines full of filler text.</p>
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">

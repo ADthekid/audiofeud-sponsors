@@ -44,16 +44,16 @@ export default function Home() {
       <section className="about min-h-[800px] h-fit">
         <h1 className="pt-12 text-center text-audiofeudpurple font-extrabold font-waterfall lg:text-6xl md:text-5xl sm:text-5xl text-4xl">Our Mission</h1>
         <div className="flex flex-col items-center justify-center py-4">
-  <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
-    For better or for worse, garage jam sessions after school are a thing of the past. As of 2023, more kids than ever are making music on their laptops instead, owing to the massively expanded creative ability designing music literally from the sound wave up introduces. Unfortunately, the vast majority of these bedroom musicians operate alone, lack access to quality equipment, and choose not to share their work. This represents an irrecoverable loss of ideas, creative potential, and dreams. Our goal as an organization is to take a flamethrower to these issues and build community, confidence, and lasting opportunities for the next generation of musicians.
-  </p>
-  <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
-    So, we’re launching an overnight in-person event in which high schoolers and eligible college students will network, collaborate, and compete to create an original song from scratch. Artists will present before their peers and a set of qualified judges for the chance to win money and essential sound engineering equipment. The aim of this format is to draw out hidden talent and essentially pour rocket fuel on musicians with the most promise. <b>This is the first time to our knowledge that anything like this has been done.</b> To that end, a cornerstone of our mission is to collaborate with like-minded companies, reaching young musicians with high-quality products and services and enabling us to host the highest impact event possible.
-  </p>
-  <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
-    Our mission is to bring more music to the world. Help us make it happen.
-  </p>
-</div>
+          <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
+            For better or for worse, garage jam sessions after school are a thing of the past. As of 2023, more kids than ever are making music on their laptops instead, owing to the massively expanded creative ability designing music literally from the sound wave up introduces. Unfortunately, the vast majority of these bedroom musicians operate alone, lack access to quality equipment, and choose not to share their work. This represents an irrecoverable loss of ideas, creative potential, and dreams. Our goal as an organization is to take a flamethrower to these issues and build community, confidence, and lasting opportunities for the next generation of musicians.
+          </p>
+          <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
+            So, we’re launching an overnight in-person event in which high schoolers and eligible college students will network, collaborate, and compete to create an original song from scratch. Artists will present before their peers and a set of qualified judges for the chance to win money and essential sound engineering equipment. The aim of this format is to draw out hidden talent and essentially pour rocket fuel on musicians with the most promise. <b>This is the first time to our knowledge that anything like this has been done.</b> To that end, a cornerstone of our mission is to collaborate with like-minded companies, reaching young musicians with high-quality products and services and enabling us to host the highest impact event possible.
+          </p>
+          <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
+            Our mission is to bring more music to the world. Help us make it happen.
+          </p>
+        </div>
         {/*<ul className="justify-center h-auto flex-wrap flex mt-2 mb-2 items-center">
           <div className="flex-col justify-center rounded-full mx-[2vw] mt-10 mb-[50px] h-[300px]">
             <div className="relative h-[200px] w-[250px]">
@@ -176,7 +176,9 @@ export default function Home() {
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
-              <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              <a href='mailto:team@audiofeud.com?subject=Bronze%20Sponsorship%20Inquiry%20from%20%5BSponsor%20Name%20Here%5D&body=I%27m%20interested%20in%20potentially%20working%20with%20Audiofeud%20as%20a%20Bronze%20Sponsor.%20Tell%20me%20more%2E%0D%0A%0D%0AThanks%2C%0D%0A%5BYour%20name%20here%5D' target='blank'>
+                <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              </a>
             </div>
           </div>
           <div className="relative tier h-[450px] bg-white rounded-[20px] mx-[2vw] min-w-[280px] w-[280px] my-2 border-2 border-audiofeudpurple drop-shadow-[0_0_0_#4824b3] transition duration-300 ease-in-out hover:drop-shadow-[-10px_10px_0_#4824b3]">
@@ -199,7 +201,9 @@ export default function Home() {
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
-              <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              <a href='mailto:team@audiofeud.com?subject=Silver%20Sponsorship%20Inquiry%20from%20%5BSponsor%20Name%20Here%5D&body=I%27m%20interested%20in%20potentially%20working%20with%20Audiofeud%20as%20a%20Silver%20Sponsor.%20Tell%20me%20more%2E%0D%0A%0D%0AThanks%2C%0D%0A%5BYour%20name%20here%5D' target='blank'>
+                <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              </a>
             </div>
           </div>
           <div className="relative tier h-[450px] bg-white rounded-[20px] mx-[2vw] min-w-[280px] w-[280px] my-2 border-2 border-audiofeudpurple drop-shadow-[0_0_0_#4824b3] transition duration-300 ease-in-out hover:drop-shadow-[-10px_10px_0_#4824b3]">
@@ -222,7 +226,9 @@ export default function Home() {
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
-              <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              <a href='mailto:team@audiofeud.com?subject=Gold%20Sponsorship%20Inquiry%20from%20%5BSponsor%20Name%20Here%5D&body=I%27m%20interested%20in%20potentially%20working%20with%20Audiofeud%20as%20a%20Gold%20Sponsor.%20Tell%20me%20more%2E%0D%0A%0D%0AThanks%2C%0D%0A%5BYour%20name%20here%5D' target='blank'>
+                <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              </a>
             </div>
           </div>
           <div className="relative tier h-[450px] bg-white rounded-[20px] mx-[2vw] min-w-[280px] w-[280px] my-2 border-2 border-audiofeudpurple drop-shadow-[0_0_0_#4824b3] transition duration-300 ease-in-out hover:drop-shadow-[-10px_10px_0_#4824b3]">
@@ -245,18 +251,20 @@ export default function Home() {
               </div>
             </ul>
             <div className="absolute bottom-[15px] left-[15px] right-[15px] ">
-              <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              <a href='mailto:team@audiofeud.com?subject=Partnership%20Inquiry%20from%20%5BSponsor%20Name%20Here%5D&body=I%27m%20interested%20in%20potentially%20working%20with%20Audiofeud%20as%20a%20Partner.%20Tell%20me%20more%2E%0D%0A%0D%0AThanks%2C%0D%0A%5BYour%20name%20here%5D' target='blank'>
+                <button className="bg-audiofeudpurpledark text-base font-normal text-white font-bold py-[10px] w-full rounded-full" type="submit">Get Started</button>
+              </a>
             </div>
           </div>
         </ul>
         <div className="flex justify-center pb-24">
-          <p className="text-center max-w-4xl text-audiofeudpurple md:text-base text-sm px-4 py-4">*All offers are negotiable and customizable. Talk to us at <a href="mailto:team@audiofeud.com" className="hover:underline decoration-wavy">team@audiofeud.com</a>!</p>
+          <p className="text-center max-w-4xl text-audiofeudpurple md:text-base text-sm px-4 py-4">*All offers are negotiable and customizable. Talk to us at <a href="mailto:team@audiofeud.com" target='blank' className="hover:underline decoration-wavy">team@audiofeud.com</a>!</p>
         </div>
       </section>
       <section id="message" className="message flex justify-center items-center h-[300px] bg-audiofeudpurple">
         <div className="content text-center">
           <h1 className="text-white font-extrabold font-waterfall lg:text-6xl md:text-5xl sm:text-4xl text-3xl">All ready to sponsor us?</h1>
-          <h1 className="text-white font-light lg:text-4xl md:text-3xl sm:text-2xl text-xl px-8">Reach us at <a href="mailto:team@audiofeud.com" className="hover:underline decoration-wavy">team@audiofeud.com</a> for a fast response.</h1>
+          <h1 className="text-white font-light lg:text-4xl md:text-3xl sm:text-2xl text-xl px-8">Reach us at <a href="mailto:team@audiofeud.com" target='blank' className="hover:underline decoration-wavy">team@audiofeud.com</a> for a fast response.</h1>
         </div>
       </section>
       <div className="relative z-10">

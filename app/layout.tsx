@@ -17,6 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:title" content="Audiofeud | The sound of the bay" />
+        <meta property="og:image" content="/opengraph-image.png" />
+        <meta property="og:url" content="https://sponsors.audiofeud.com" />
+      </head>
       <body className={hankenGrotesk.className}>
         <div className="relative overflow-hidden">
           {children}

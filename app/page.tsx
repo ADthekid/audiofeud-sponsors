@@ -45,13 +45,7 @@ export default function Home() {
         <h1 className="pt-12 text-center text-audiofeudpurple font-extrabold font-waterfall lg:text-6xl md:text-5xl sm:text-5xl text-4xl">Our Mission</h1>
         <div className="flex flex-col items-center justify-center py-4">
           <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
-            After-school jam sessions have become a thing of the past. As of 2023, kids are heading out of the garage and into their bedrooms to make music on their laptops instead. But the vast majority of these young musicians operate alone, lack access to quality equipment, and don’t share their work. Our goal as an organization is to take a flamethrower to these hurdles and build community, confidence, and real opportunities for the next generation of music.
-          </p>
-          <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
-            So, we’re launching an overnight, in-person event where high schoolers and eligible college students will compete to create an original song from scratch in 24 hours. They’ll have the chance to network and collaborate before presenting in front of peers and a set of qualified judges for the chance to win money and vital sound engineering equipment. <b>This is the first time to our knowledge that anything like this has been done.</b>
-          </p>
-          <p className="max-w-4xl text-center text-audiofeudpurple md:text-xl sm:text-lg text-medium px-4 py-4">
-            To make this work, we need to collaborate with like-minded, forward-looking companies to help inspire young musicians and create lifelong customers. Help us make Audiofeud happen.
+            After-school jam sessions have become a thing of the past. As of 2023, kids are heading out of the garage and into their bedrooms to make music on their laptops instead. But the vast majority of these young musicians operate alone, lack access to quality equipment, and don’t share their work. Our goal as an organization is to take a flamethrower to these hurdles and build community, confidence, and real opportunities for the next generation of music. So, we’re launching an overnight, in-person event where high schoolers and eligible college students will compete to create an original song from scratch in 24 hours. They’ll have the chance to network and collaborate before presenting in front of peers and a set of qualified judges for the chance to win money and vital sound engineering equipment. <b>This is the first time to our knowledge that anything like this has been done.</b> To make this work, we need to collaborate with like-minded, forward-looking companies to help inspire young musicians and create lifelong customers. Help us make Audiofeud happen.
           </p>
         </div>
         {/*<ul className="justify-center h-auto flex-wrap flex mt-2 mb-2 items-center">

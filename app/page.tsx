@@ -51,7 +51,7 @@ export default function Home() {
             So, we’re launching an overnight, in-person event where high schoolers and eligible college students will compete to create an original song from scratch in 24 hours. They’ll have the chance to network and collaborate before presenting in front of peers and a set of qualified judges for the chance to win money and vital sound engineering equipment. <b>This is the first time to our knowledge that anything like this has been done.</b> To make this work, we need to collaborate with like-minded, forward-looking companies to help inspire young musicians and create lifelong customers. Help us make Audiofeud happen.
           </p>
         </div>
-        {/*<ul className="justify-center h-auto flex-wrap flex mt-2 mb-2 items-center">
+        <ul className="justify-center h-auto flex-wrap flex mt-2 mb-2 items-center">
           <div className="flex-col justify-center rounded-full mx-[2vw] mt-10 mb-[50px] h-[300px]">
             <div className="relative h-[200px] w-[250px]">
               <Image
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
             <p className="max-w-[250px] text-center text-audiofeudpurple text-xl">this is a little bit of filler text. stay put for a sexy caption.</p>
           </div>
-  </ul>*/}
+      </ul>
       </section>
       <section id="team" className="relative team min-h-[500px] h-fit bg-audiofeudpurple">
         <div className="custom-shape-divider-top-1692368077">

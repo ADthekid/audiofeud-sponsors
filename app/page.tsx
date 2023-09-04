@@ -116,7 +116,7 @@ export default function Home() {
                 className="picture rounded-full border-[14px] border-white hover:border-double"
               />
               <h1 className="max-w-[250px] text-white font-bold text-2xl text-center mt-3.5 hover:underline decoration-wavy">Soorya Ignatius</h1>
-              <h1 className="max-w-[250px] text-white text-center">Co-founder + Executive Director</h1>
+              <h1 className="max-w-[250px] text-white text-center">Founder + Executive Director</h1>
             </a>
           </div>
           <div className="flex-col justify-center rounded-full mx-[2vw] mt-8 h-[400px]">
@@ -129,7 +129,7 @@ export default function Home() {
                 className="picture rounded-full border-[14px] border-white hover:border-double"
               />
               <h1 className="max-w-[250px] text-white font-bold text-2xl text-center mt-3.5 hover:underline decoration-wavy">Atharv Deshmukh</h1>
-              <h1 className="max-w-[250px] text-white text-center">Co-founder + Director of Technology</h1>
+              <h1 className="max-w-[250px] text-white text-center">Co-Founder + Director of Technology</h1>
             </a>
           </div>
           <div className="flex-col justify-center rounded-full mx-[2vw] mt-8 h-[400px]">
